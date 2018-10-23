@@ -8,15 +8,15 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Splash } from '../app/splash/splash.page';
+import { SplashPage } from '../app/splash/splash.page';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Splash
+    SplashPage
   ],
   entryComponents: [
-    Splash
+    SplashPage
   ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
