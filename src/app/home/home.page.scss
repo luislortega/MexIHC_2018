@@ -1,5 +1,22 @@
 h1{
-    margin: 25px;
-    font-size: 30px;
-    color: blue;
+    margin: 15px;
+    font-size: 25px;
+    color: gray;
+}
+ion-card{
+    border-radius: 13px !important;
+    p{
+        margin: 15px;
+        font-size: 25px;
+        color: blue;
+    }    
+}
+hr {
+  height: 1px !important;
+  width: 500px !important;
+  background: gray !important;
+  display: block !important;
+  font-size: 2em !important;
+  opacity: 0.5 !important;
+  visibility: visible !important;
 }
