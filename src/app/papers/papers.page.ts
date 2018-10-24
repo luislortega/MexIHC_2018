@@ -12,9 +12,6 @@ export class PapersPage implements OnInit {
 
   constructor(public navCtrl: NavController, private nativePageTransitions: NativePageTransitions){}
 
-  ngOnInit() {
-  }
-
   goBack() {
 
     if(this.navCtrl.canGoBack()) {
@@ -37,6 +34,9 @@ export class PapersPage implements OnInit {
       this.navCtrl.setRoot('HomePage')
     }
 
+  }
+
+  ngOnInit() {
   }
 
 }
