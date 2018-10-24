@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions';
-import { NavController } from '@ionic/angular';
 //import {Subject} from 'rxjs';
-//import { NavController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'app-papers',
@@ -16,7 +15,7 @@ export class PapersPage implements OnInit {
   ngOnInit() {
   }
 
-  /*goBack() {
+  goBack() {
 
     if(this.navCtrl.canGoBack()) {
       let options: NativeTransitionOptions = {
@@ -38,6 +37,6 @@ export class PapersPage implements OnInit {
       this.navCtrl.setRoot('HomePage')
     }
 
-  /*}
+  }
 
 }

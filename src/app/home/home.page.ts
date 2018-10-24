@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { Router, UrlTree } from '@angular/router';
-import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions';
-import { NavController } from '@ionic/angular';
 
-//import { NavController } from 'ionic-angular';
+import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'app-home',
@@ -31,7 +30,7 @@ export class HomePage {
     }
 
     this.nativePageTransitions.slide(options);
-    //this.navCtrl.setRoot('FullshortPage');
+    this.navCtrl.setRoot('FullshortPage');
   }
 
   flipPage() {
@@ -41,13 +40,13 @@ export class HomePage {
     }
 
     this.nativePageTransitions.flip(options);
-    //this.navCtrl.push('FullshortPage');
+    this.navCtrl.push('FullshortPage');
   }
 
   fadePage() {
 
     this.nativePageTransitions.fade(null);
-    //this.navCtrl.setRoot('FullshortPage');
+    this.navCtrl.setRoot('FullshortPage');
   }
 
   curlPage() {
@@ -57,7 +56,7 @@ export class HomePage {
     }
 
     this.nativePageTransitions.curl(options);
-    //this.navCtrl.setRoot('FullshortPage');
+    this.navCtrl.setRoot('FullshortPage');
   }
 
   openPage(url : UrlTree):void{
