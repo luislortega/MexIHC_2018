@@ -1,0 +1,7 @@
+{
+  "name": "MexiHC_REBORN2",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
