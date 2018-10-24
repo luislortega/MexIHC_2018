@@ -1,1 +1,52 @@
+h1{
+    margin: 15px;
+    font-size: 25px;
+    color: gray;
+}
 
+ion-card{
+    border-radius: 13px !important;    
+}
+
+.cards{
+    p{
+        margin: 10px;
+        font-size: 25px;
+        color: #357FC2;
+    }    
+}
+
+
+.participants{
+    align-items: center;
+
+    .name{
+        font-size: 18px;
+    }
+
+    .description{
+        color: gray;
+    }
+
+    .title{
+        color: gray;
+        font-family: cursive;
+    }
+
+    img{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin: 25px;
+    }
+}
+
+hr {
+  height: 1px !important;
+  width: 500px !important;
+  background: gray !important;
+  display: block !important;
+  font-size: 2em !important;
+  opacity: 0.5 !important;
+  visibility: visible !important;
+}
