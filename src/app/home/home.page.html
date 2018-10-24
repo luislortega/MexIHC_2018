@@ -1,60 +1,38 @@
+<!--<div *ngIf="showSplash" class="splash">
+  <div class="spinner"></div>
+</div>-->
+
 <ion-header>
   <ion-toolbar>
-    <ion-title ><ion-img src="../../assets/MEXIHC.png" style="width: 50px; margin-left: auto;
-      margin-right: auto;
-      display: block;"></ion-img> </ion-title>
+    <ion-title>MexIHC 2018</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
   <!-- CARDS -->
-  <div *ngFor="let cards of menu_cards" class="cards">
-      <ion-card (click)='openPage(cards.url)'>
-        <ion-card-content>
-            <p>{{cards.nombre}}</p>
-        </ion-card-content>
-      </ion-card>
-  </div>
+  <h1>Papers</h1>
+  <ion-card>
+    <ion-card-content>
+        <p>FULL AND SHORT PAPERS</p>
+    </ion-card-content>
+  </ion-card>
+<ion-card>
+  <ion-card-content>
+      <p>GRADUATE COLLOQUIUM</p>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-content>
+      <p>STUDENTS DESIGN COMPETITION</p>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-content>
+      <p>POSTERS</p>
+  </ion-card-content>
+</ion-card>
 <!-- END-CARDS -->
 <br>
 <hr>
-<br>
-<!-- PARTICIPANTS -->
-<div class="participants">
-  <h1>Participants</h1>
-  <ion-card>
-      <ion-grid>
-          <ion-row>            
-            
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbiIVeLJs1SgLpnAEZP5RrfxNByjmpQdx2L-mEiG0w98Vc04xww">
-              
-            <!-- INFORMATION OF PARTICIPANTS -->
-            <ion-col >
-              
-              <ion-row>
-                <p class="name">
-                  Luis Gerardo Leon Ortega
-                </p>
-              </ion-row>
-              
-              <ion-row>
-                <p class="description">
-                  Desarrollo de aplicacion para el MEXIHC_2018 utilizando tecnologias como IONIC 4 [TypeScript] [SASS]
-                </p>
-              </ion-row>
-              
-              <ion-row>
-                <p class="title">
-                  - Colaborador
-                </p>
-              </ion-row>
-            </ion-col>
-            <!-- END-INFORMATION OF PARTICIPANTS-->
-          
-          </ion-row>
-      </ion-grid> 
-          
-  </ion-card>
-</div>
-<!-- END-PARTICIPANTS -->
+
 </ion-content>
