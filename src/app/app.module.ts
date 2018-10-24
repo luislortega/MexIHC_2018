@@ -8,21 +8,22 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SplashPage } from '../app/splash/splash.page';
+
+import { NativePageTransitions} from '@ionic-native/native-page-transitions';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SplashPage
+    AppComponent
   ],
   entryComponents: [
-    SplashPage
+
   ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    NativePageTransitions
   ],
   bootstrap: [AppComponent]
 })

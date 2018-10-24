@@ -11,27 +11,31 @@
 <ion-content padding>
   <!-- CARDS -->
   <h1>Papers</h1>
-  <ion-card>
-    <ion-card-content>
-        <p>FULL AND SHORT PAPERS</p>
-    </ion-card-content>
-  </ion-card>
-<ion-card>
-  <ion-card-content>
-      <p>GRADUATE COLLOQUIUM</p>
-  </ion-card-content>
-</ion-card>
-<ion-card>
-  <ion-card-content>
-      <p>STUDENTS DESIGN COMPETITION</p>
-  </ion-card-content>
-</ion-card>
-<ion-card>
-  <ion-card-content>
-      <p>POSTERS</p>
-  </ion-card-content>
-</ion-card>
-<!-- END-CARDS -->
+  
+    <ion-card (click)="slidePage()">
+      <ion-card-content>
+          <p>FULL AND SHORT PAPERS</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card (click)="flipPage()">
+      <ion-card-content>
+          <p>GRADUATE COLLOQUIUM</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card (click)="fadePage()">
+      <ion-card-content>
+          <p>STUDENTS DESIGN COMPETITION</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card (click)="curlPage()">
+      <ion-card-content>
+          <p>POSTERS</p>
+      </ion-card-content>
+    </ion-card>
+  <!-- END-CARDS -->
 <br>
 <hr>
 
