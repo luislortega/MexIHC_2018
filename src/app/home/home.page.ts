@@ -9,10 +9,10 @@ import { Router, UrlTree } from '@angular/router';
 export class HomePage {
   
   private menu_cards = [
-    {'nombre' : "FULL AND SHORT PAPERS", 'url' : "/papers"},
-    {'nombre' : "GRADUATE COLLOQUIUM", 'url' : "/colloquium"},
-    {'nombre' : "STUDENTS DESIGN COMPETITION", 'url' : "/competition"},
-    {'nombre' : "POSTERS", 'url' : "/posters"}
+    {'title' : "FULL AND SHORT PAPERS", 'url' : "/papers"},
+    {'title' : "GRADUATE COLLOQUIUM", 'url' : "/colloquium"},
+    {'title' : "STUDENTS DESIGN COMPETITION", 'url' : "/competition"},
+    {'title' : "POSTERS", 'url' : "/posters"}
   ];
 
   constructor(private router: Router){}
