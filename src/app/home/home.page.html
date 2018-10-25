@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="light">
     <ion-title ><ion-img src="../../assets/MEXIHC.png" style="width: 50px; margin-left: auto;
       margin-right: auto;
       display: block;"></ion-img> </ion-title>
@@ -11,7 +11,7 @@
   <div *ngFor="let cards of menu_cards" class="cards">
       <ion-card (click)='openPage(cards.url)'>
         <ion-card-content>
-            <p>{{cards.nombre}}</p>
+            <p>{{cards.title}}</p>
         </ion-card-content>
       </ion-card>
   </div>
