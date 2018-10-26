@@ -1,0 +1,7 @@
+{
+  "name": "MexIHC_REBORN4",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
