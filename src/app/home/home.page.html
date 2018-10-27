@@ -1,48 +1,56 @@
-<ion-header>
-  <ion-toolbar color="light">
-    <ion-title ><ion-img src="../../assets/MEXIHC.png" style="width: 50px; margin-left: auto;
-      margin-right: auto;
-      display: block;"></ion-img> </ion-title>
+<ion-header no-shadow no-border>
+  <ion-toolbar class="header">
+    <ion-title>
+      <ion-img src="../assets/logo.svg"></ion-img>
+    </ion-title>
+    <hr>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  <!-- CARDS -->
-  <div *ngFor="let cards of menu_cards" class="cards">
-      <ion-card (click)='openPage(cards.url)'>
+<ion-content>
+  <div class="bg">
+    <!-- CARDS -->
+    <div *ngFor="let cards of menu_cards">
+      <ion-card (click)='openPage(cards.url)' class="cards">
         <ion-card-content>
-            <p>{{cards.title}}</p>
+          <p>{{cards.title}}</p>
         </ion-card-content>
       </ion-card>
-  </div>
-<!-- END-CARDS -->
-<br>
-<hr>
-<br>
-<!-- PARTICIPANTS -->
-<div class="participants">
-  <h1>Participants</h1>
-  <ion-card>
-      <ion-grid>
-          <ion-row>            
-            
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbiIVeLJs1SgLpnAEZP5RrfxNByjmpQdx2L-mEiG0w98Vc04xww">
-              
+    </div>
+
+    <!-- END-CARDS -->
+    <br>
+    <hr>
+    <br>
+
+    <h1>Participants</h1>
+
+    <!-- PARTICIPANTS -->
+    <div class="participants">
+      <ion-card>
+        <ion-grid > 
+          <ion-row>
+            <ion-col size="4" no-padding>
+              <div  class="frame">
+                  <img src="https://ams.educause.edu/eweb/upload/60283746.jpg">
+              </div>
+            </ion-col>
+
             <!-- INFORMATION OF PARTICIPANTS -->
-            <ion-col >
-              
+            <ion-col size="8" >
+
               <ion-row>
                 <p class="name">
                   Luis Gerardo Leon Ortega
                 </p>
               </ion-row>
-              
+
               <ion-row>
                 <p class="description">
                   Desarrollo de aplicacion para el MEXIHC_2018 utilizando tecnologias como IONIC 4 [TypeScript] [SASS]
                 </p>
               </ion-row>
-              
+
               <ion-row>
                 <p class="title">
                   - Colaborador
@@ -50,11 +58,13 @@
               </ion-row>
             </ion-col>
             <!-- END-INFORMATION OF PARTICIPANTS-->
-          
+
           </ion-row>
-      </ion-grid> 
-          
-  </ion-card>
-</div>
-<!-- END-PARTICIPANTS -->
+        </ion-grid>
+
+      </ion-card>
+    </div>
+    <!-- END-PARTICIPANTS -->
+  </div>
+
 </ion-content>
