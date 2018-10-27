@@ -10,14 +10,33 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+//Pages that create in ionic_3
+import { PapersPage } from '../pages/papers/papers';
+  //full and short papers
+  import { FullpapersPage } from '../pages/fullpapers/fullpapers';
+  import { ShortpapersPage } from '../pages/shortpapers/shortpapers';
+import { ColoquioPage } from '../pages/coloquio/coloquio';
+import { CompetitionPage } from '../pages/competition/competition';
+import { PostersPage } from '../pages/posters/posters';
+//nativethings
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
+/**
+ * We ned add al the pages in the declarations and entryComponents
+ */
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    PapersPage,
+      FullpapersPage,
+      ShortpapersPage,
+    ColoquioPage,
+    CompetitionPage,
+    PostersPage
   ],
   imports: [
     BrowserModule,
@@ -29,12 +48,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    PapersPage,
+      FullpapersPage,
+      ShortpapersPage,
+    ColoquioPage,
+    CompetitionPage,
+    PostersPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    InAppBrowser
   ]
 })
 export class AppModule {}
