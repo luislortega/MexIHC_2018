@@ -22,7 +22,7 @@
         <p class="title">{{papers.title}}</p>
         <br>
         <p class="subtitule">- {{papers.name}}</p>
-        <button ion-button color="primary">Abrir PDF</button>
+        <button ion-button color="primary" (click)="openPDF(papers.url)">Abrir PDF</button>
       </ion-card-content>
     </ion-card>
   </div>
