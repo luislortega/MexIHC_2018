@@ -18,6 +18,9 @@ import { PapersPage } from '../pages/papers/papers';
 import { ColoquioPage } from '../pages/coloquio/coloquio';
 import { CompetitionPage } from '../pages/competition/competition';
 import { PostersPage } from '../pages/posters/posters';
+import { October29Page } from '../pages/october29/october29';
+import { October30Page } from '../pages/october30/october30';
+import { October31Page } from '../pages/october31/october31';
 //nativethings
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
@@ -36,7 +39,10 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
       ShortpapersPage,
     ColoquioPage,
     CompetitionPage,
-    PostersPage
+    PostersPage, 
+    October29Page,
+    October30Page,
+    October31Page
   ],
   imports: [
     BrowserModule,
@@ -54,7 +60,10 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
       ShortpapersPage,
     ColoquioPage,
     CompetitionPage,
-    PostersPage
+    PostersPage, 
+    October29Page,
+    October30Page,
+    October31Page
   ],
   providers: [
     StatusBar,

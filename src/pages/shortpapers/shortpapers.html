@@ -6,25 +6,25 @@
 -->
 <ion-header>
 
-    <ion-navbar>
-      <button ion-button icon-only clear (click)="this.navCtrl.pop()">
-        <ion-icon name="close"></ion-icon> close
-      </button>
-    </ion-navbar>
-  
-  </ion-header>
-  <ion-content padding>
-    <h1>SHORT PAPERS</h1>
-    <!-- papers -->
-    <div *ngFor="let papers of menu_shortpapers" class="cards">
-      <ion-card>
-        <ion-card-content>
-          <p class="title">{{papers.title}}</p>
-          <br>
-          <p class="subtitule">- {{papers.name}}</p>
-          <button ion-button color="primary" (click)="openPDF(papers.url)">Abrir PDF</button>
-        </ion-card-content>
-      </ion-card>
-    </div>
-    <!-- END-papers -->
-  </ion-content>
+  <ion-navbar>
+    <button ion-button icon-only clear (click)="this.navCtrl.pop()">
+      <ion-icon name="close"></ion-icon> close
+    </button>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <h1>SHORT PAPERS</h1>
+  <!-- papers -->
+  <div *ngFor="let papers of menu_shortpapers" class="cards">
+    <ion-card>
+      <ion-card-content>
+        <p class="title">{{papers.title}}</p>
+        <br>
+        <p class="subtitule">- {{papers.name}}</p>
+        <button ion-button color="primary" (click)="openPDF(papers.url)">Abrir PDF</button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <!-- END-papers -->
+</ion-content>
