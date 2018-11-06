@@ -16,5 +16,21 @@
 
 
 <ion-content padding>
+  <h1>October 31</h1>
+  <!-- tab -->
+  <div *ngFor="let tab of tabla_31" class="cards">
+    <ion-card>
+      <ion-card-content>
+        <strong>{{tab.time}}</strong>
+        <p> <strong>Activity:</strong> {{tab.activity}}</p>
+        <p> <strong>Place:</strong> {{tab.place}}</p>
+        <p> <strong>Volunteer:</strong> {{tab.volunteer}}</p>
+        <div *ngIf= "tab.url != 'none'">
+            <button ion-button color="primary" (click)="openPDF(tab.url)">Abrir PDF</button>
+        </div>
 
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <!-- END-tab -->
 </ion-content>

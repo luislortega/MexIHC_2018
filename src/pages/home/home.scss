@@ -6,7 +6,9 @@ page-home {
     }
     
     ion-card{
-        border-radius: 13px !important;    
+        border-radius: 13px !important;   
+        background: #ffffff !important;
+        box-shadow: 0px 0px 2px 1px rgba(78, 78, 78, 0.479) !important;
     }
     
     .cards{
@@ -14,6 +16,7 @@ page-home {
             margin: 10px;
             font-size: 25px;
             color: #357FC2;
+            text-align: center;
         }    
     }
     
