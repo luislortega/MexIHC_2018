@@ -17,7 +17,7 @@
   <h1>FULL PAPERS</h1>
   <!-- papers -->
   <div *ngFor="let papers of menu_fullpapers" class="cards">
-    <ion-card>
+    <ion-card (click)="openPDF(papers.url)">
       <ion-card-content>
         <p class="title">{{papers.title}}</p>
         <br>

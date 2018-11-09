@@ -1,3 +1,33 @@
 page-contact {
+    ion-card-content{
+        p{
+            text-align: justify !important;
+            font-size: 5vw;
+        }
+    }
+    .speaker{
+        font-size: 4vw !important;
+        //margin: 2vw 0 2vw 0 !important;
+        //padding-top: 10px;
+        color: #4E4E4E;
+        text-align: center;
+        vertical-align: center;
+    }
 
+    h1 {
+        margin-left: 10px;
+    }
+
+    ion-list-header{
+        font-weight: 300;
+        text-align: center;
+        color: #357FC2;
+    }
+    ion-label{
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 0px !important;
+        font-size: 3vw !important;
+    }
 }
