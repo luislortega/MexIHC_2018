@@ -1,0 +1,74 @@
+// http://ionicframework.com/docs/theming/
+h1{
+    font-size: 7vw !important;
+    color: #4e4e4e;
+    margin: 0 5vw !important;
+}  
+.name{
+    font-size: 4.5vw;
+    color: #357FC2;
+    text-align: center;
+    font-weight: 500;
+}  
+.cards{
+    margin: 5vw auto;
+    padding: 2vw;
+    .name{
+        font-size: 4.5vw;
+        color: #357FC2;
+        text-align: center;
+        font-weight: 500;
+    }  
+    .title{
+        font-size: 4vw;
+        color: #4e4e4e !important;
+        font-weight: 500;
+    } 
+    .authors{
+        margin-top: 3vw;
+        font-size: 3.5vw;
+        color: #A5A5A5 !important;
+        font-weight: 500;
+    }
+}
+
+ion-card{
+    border-radius: 13px !important;   
+    background: #ffffff !important;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.16) !important;
+    transition: .2s all ease-in-out;
+}
+ion-card:hover{
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.16) !important;
+}
+ion-navbar{
+    background: #F7F7F7 !important;
+    img{
+        width: 10vw; 
+        margin: 1vw auto;
+        display: block;
+    }
+}
+ion-content{
+    background: #F7F7F7 !important;
+}
+hr {
+    height: 2px !important;
+    width: 95%;
+    background: #A5A5A5 !important;
+    opacity: .5 !important;
+    margin: auto !important;
+  }
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.

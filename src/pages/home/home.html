@@ -1,0 +1,21 @@
+<ion-header no-border no-shadow>
+  <ion-navbar>
+      <ion-title>
+          <img src="../../assets/logo.svg">    
+          <hr>
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-margin>
+  <h1>Papers</h1>
+  <!-- CARDS -->
+  <div *ngFor="let cards of menu_cards">
+      <ion-card (click)='pushActivity(cards.url)' class="cards">
+        <ion-card-content>
+            <p class="name">{{cards.nombre}}</p>
+        </ion-card-content>
+      </ion-card>
+  </div>
+<!-- END-CARDS -->
+</ion-content>
