@@ -1,33 +1,65 @@
 page-contact {
-    ion-card-content{
-        p{
-            text-align: justify !important;
-            font-size: 5vw;
-        }
+
+    .frame {
+        max-width: 30%;
+        max-height: auto;
+        border-radius: 50%;
     }
-    .speaker{
-        font-size: 4vw !important;
-        //margin: 2vw 0 2vw 0 !important;
+
+    .box {
+        display: flex;
+        align-items: center;
+    }
+
+    .about {
+        background-color: lightgray;
+
+        span {
+           font-size: 15px !important; 
+        }
+        
+    }
+
+    .speakerName {
+        font-size: 5vw !important;
+        //margin: 0 0 0 2vw !important;
         //padding-top: 10px;
-        color: #4E4E4E;
+        color: white;
         text-align: center;
         vertical-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .speakers {
+        margin: 25px
+    }
+
+    .speaker {
+        background-color: #7085D8;
+        border-radius: 3%
     }
 
     h1 {
-        margin-left: 10px;
+        margin: 10vw 0 0 2vw;
     }
 
-    ion-list-header{
-        font-weight: 300;
-        text-align: center;
-        color: #357FC2;
+    ion-list {
+        //margin: 5vw 0 0 0;
+        padding: 0 0 10vw 0;
     }
-    ion-label{
-        border-top: 0px !important;
-        border-left: 0px !important;
-        border-right: 0px !important;
-        border-bottom: 0px !important;
+
+    .contactTitle{
+        font-size: 4vw;
+        font-weight: 2vw;
+        text-align: center;
+        color: black;
+        
+    }
+
+    .contact {
+        border: 0 0 0 0 !important;
         font-size: 3vw !important;
+        color: #357FC2;
     }
 }

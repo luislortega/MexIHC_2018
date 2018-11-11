@@ -5,18 +5,25 @@ page-fullpapers {
         color: gray;
     }
     ion-card{
+        
         margin-bottom: 25px !important;
         .title{
+            text-transform: capitalize;
             font-size: 18px;
+            color: #FFFF00;
+        }
+
+        .subtitule {
+            color: white;
+            padding-bottom: 12px;
         }
         
         ion-card-content {
-           
-            text-align: center
+            border-radius: 2%;
+            background-color: #002366;
+            text-align: center;
            
         } 
-        
     }
-    
     
 }
