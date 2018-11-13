@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+//import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-contact',
@@ -13,7 +13,7 @@ export class ContactPage {
     {name: "Luis Alberto Muñoz Ubando", img: "http://www.mexihc.org/2018/images/alberto.jpeg"}
   ]
 
-  constructor(public navCtrl: NavController) {
+  constructor() {
 
   }
 

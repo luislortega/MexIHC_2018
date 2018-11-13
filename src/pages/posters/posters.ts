@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 /**
@@ -36,14 +36,14 @@ export class PostersPage {
     {'url': 'http://convivenciaescolaryucatan.com.mx/php/pdfs/Posters/Utilización de conceptos de gamificación para reducir la violencia de género contra las mujeres.pdf ','title': 'Utilizacion de conceptos de gamificacion para reducir la violencia de genero contra las mujeres', 'name':'Cuauhtémoc Rivera-Loaiza, Marco A. Nava Aguilar'}
   ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,  private ia: InAppBrowser) {}
+  constructor(private ia: InAppBrowser) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PostersPage');
   }
 
   openPDF(urlTxt){
-    let url = encodeURIComponent(urlTxt); 
+    let url = encodeURIComponent(urlTxt);
     this.ia.create('https://docs.google.com/viewer?url=' + url);
   }
 

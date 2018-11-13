@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ModalController } from 'ionic-angular';
+import { ModalController } from 'ionic-angular';
 import { October29Page } from '../october29/october29';
 import { October30Page } from '../october30/october30';
 import { October31Page } from '../october31/october31';
@@ -16,7 +16,7 @@ export class AboutPage {
     {'title': 'OCTOBER 31', 'url': October31Page}
   ];
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController) { }
+  constructor(public modalCtrl: ModalController) { }
 
   openPaper(schedule: any){
     //this.navCtrl.push(paper);
