@@ -1,19 +1,18 @@
-<ion-header>
+<ion-header no-border>
   <ion-navbar>
-    <ion-title>
-      <img src="../../assets/logo.svg" style="width: 50px; margin-left: auto;
-          margin-right: auto;
-          display: block;">    
-    </ion-title>
+      <ion-title>
+          <img src="../../assets/logo.svg" >        
+      </ion-title>
+      <hr>
   </ion-navbar>
 </ion-header>
-<ion-content padding>
+<ion-content>
   <h1>Schedule</h1>
   <!-- SCHEDULE -->
-  <div *ngFor="let sche of menu_schedule" class="cards">
-    <ion-card (click)="openPaper(sche.url)">
+  <div *ngFor="let sche of menu_schedule" no-padding>
+    <ion-card (click)="openPaper(sche.url)" class="cards" no-margin>
       <ion-card-content>
-        <p class="title">{{sche.title}}</p>
+        <p class="typePaper">{{sche.title}}</p>
       </ion-card-content>
     </ion-card>
   </div>

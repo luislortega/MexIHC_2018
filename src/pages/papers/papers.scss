@@ -1,15 +1,7 @@
-page-papers {
-    h1{
-        margin: 15px;
-        font-size: 25px;
-        color: gray;
-    }
-    ion-card{
-        margin-bottom: 25px !important;
-        border-radius: 13px !important;
-        .title{
-            font-size: 25px;
-        }
-        
-    }
+.titlePapers{
+    font-weight: 500 !important;
+    font-size: 6vw !important;
+    color: $blue !important;
+    margin: 3vw !important;
+    text-align: center;
 }

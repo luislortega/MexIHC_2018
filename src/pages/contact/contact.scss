@@ -1,7 +1,7 @@
 page-contact {
 
     .frame {
-        max-width: 30%;
+        max-width: 25%;
         max-height: auto;
         border-radius: 50%;
     }
@@ -19,47 +19,29 @@ page-contact {
         }
         
     }
-
+    .contact{
+        ion-list-header{
+            text-align: center;
+            font-size: 6vw !important;
+            color: $black;
+        }
+        ion-item{
+            border: none !important;
+            font-size: 5vw !important;
+            color: #357FC2 !important;
+        }
+    }
     .speakerName {
+        width: 75%;
         font-size: 5vw !important;
-        //margin: 0 0 0 2vw !important;
-        //padding-top: 10px;
-        color: white;
+        font-weight: 500;
+        margin: auto 4vw !important;
+        display: block;
+        color: $black;
         text-align: center;
-        vertical-align: center;
-        margin-left: auto;
-        margin-right: auto;
     }
-
-    .speakers {
-        margin: 25px
-    }
-
     .speaker {
         background-color: #7085D8;
         border-radius: 3%
-    }
-
-    h1 {
-        margin: 10vw 0 0 2vw;
-    }
-
-    ion-list {
-        //margin: 5vw 0 0 0;
-        padding: 0 0 10vw 0;
-    }
-
-    .contactTitle{
-        font-size: 4vw;
-        font-weight: 2vw;
-        text-align: center;
-        color: black;
-        
-    }
-
-    .contact {
-        border: 0 0 0 0 !important;
-        font-size: 3vw !important;
-        color: #357FC2;
     }
 }

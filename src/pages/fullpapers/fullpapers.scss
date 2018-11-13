@@ -1,29 +1,22 @@
-page-fullpapers {
-    h1{
-        margin: 15px;
-        font-size: 25px;
-        color: gray;
+.cards{
+    .titlePdf{
+        font-size: 5vw !important;
+        text-align: justify;
+        padding: 1vw;
+        color: $black;
+        font-weight: 500;
     }
-    ion-card{
-        
-        margin-bottom: 25px !important;
-        .title{
-            text-transform: capitalize;
-            font-size: 18px;
-            color: #FFFF00;
-        }
-
-        .subtitule {
-            color: white;
-            padding-bottom: 12px;
-        }
-        
-        ion-card-content {
-            border-radius: 2%;
-            background-color: #002366;
-            text-align: center;
-           
-        } 
+    .authorsPdf{
+        font-size: 4vw !important;
+        text-align: justify;
+        padding: 1vw;
+        color: $gray;
+        font-weight: 500;
     }
-    
+}
+.btnPdf{
+    border-radius: 15px !important;
+    background-color: $blue !important;
+    color: #fff !important;
+    margin: 0 auto !important;
 }

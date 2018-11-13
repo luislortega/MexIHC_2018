@@ -1,20 +1,19 @@
-<ion-header>
+<ion-header no-border>
   <ion-navbar>
       <ion-title>
-          <img src="../../assets/logo.svg" style="width: 50px; margin-left: auto;
-          margin-right: auto;
-          display: block;">        
+          <img src="../../assets/logo.svg" >        
       </ion-title>
+      <hr>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <h1>Papers</h1>
   <!-- CARDS -->
-  <div *ngFor="let cards of menu_cards" class="cards">
-      <ion-card (click)='pushActivity(cards.url)'>
+  <div *ngFor="let cards of menu_cards" no-padding>
+      <ion-card (click)='pushActivity(cards.url)' class="cards" no-margin>
         <ion-card-content>
-            <p>{{cards.nombre}}</p>
+            <p class="typePaper">{{cards.nombre}}</p>
         </ion-card-content>
       </ion-card>
   </div>

@@ -1,5 +1,62 @@
 // http://ionicframework.com/docs/theming/
+$background : #F7F7F7;
+$blue: #357FC2;
+$gray: #A5A5A5;
+$black: #4E4E4E;
 
+ion-navbar {
+  background: $background !important;
+
+  img {
+    width: 10vw !important;
+    margin: 3vw auto;
+    display: block
+  }
+}
+
+hr {
+  height: 2px !important;
+  width: 93vw;
+  background: $gray !important;
+  display: block !important;
+  opacity: 0.5 !important;
+  visibility: visible !important;
+  margin: 0 auto !important;
+}
+
+ion-card {
+    margin: 5vw auto 5vw auto !important;
+    border-radius: 15px !important;
+    background: #fff !important;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.16) !important;
+
+  .text{
+      font-size: 4.5vw !important;
+      text-align: justify;
+      padding: 1vw;
+  }
+}
+
+ion-content {
+  background-color: $background !important;
+}
+
+h1 {
+  font-size: 8vw !important;
+  color: $black !important;
+  margin: 5vw !important;
+}
+
+.cards {
+
+  .typePaper {
+    font-weight: 500;
+    font-size: 5vw;
+    color: $blue;
+    text-align: center;
+    margin: 2vw;
+  }
+}
 
 // App Global Sass
 // --------------------------------------------------
