@@ -14,16 +14,17 @@
 
 
 <ion-content padding>
+  <h1>STUDENTS DESIGN COMPETITION</h1>
 <!-- competition -->
-<div *ngFor="let comps of menu_competition" class="cards">
-    <ion-card>
-      <ion-card-content>
-          <p class="title">{{comps.title}}</p>
-          <br>
-          <p class="subtitule">- {{comps.name}}</p>
-      <button ion-button color="primary" (click)="openPDF(comps.url)">Abrir PDF</button>
-      </ion-card-content>
-    </ion-card>
+<div *ngFor="let comp of menu_competition" class="cards">
+  <ion-card class="card">
+    <ion-card-content class="pdfCard">
+        <p class="pdfTitle">{{comp.title}}</p>
+        <br>
+        <p class="pdfAuthor">- {{comp.name}}</p>
+    <button ion-button color="primary" (click)="openPDF(comp.url)" class="pdfBtn">Abrir PDF</button>
+    </ion-card-content>
+  </ion-card>
 </div>
 <!-- END-competition -->
 </ion-content>

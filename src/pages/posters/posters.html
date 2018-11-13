@@ -14,14 +14,15 @@
 
 
 <ion-content padding>
+    <h1>POSTERS</h1>
 <!-- posters -->
-<div *ngFor="let posts of menu_posters" class="cards">
-    <ion-card>
-      <ion-card-content>
-          <p class="title">{{posts.title}}</p>
+<div *ngFor="let posts of menu_posters">
+    <ion-card class="card">
+      <ion-card-content class="pdfCard">
+          <p class="pdfTitle">{{posts.title}}</p>
           <br>
-          <p class="subtitule">- {{posts.name}}</p>
-      <button ion-button color="primary" (click)="openPDF(posts.url)">Abrir PDF</button>
+          <p class="pdfAuthor">- {{posts.name}}</p>
+      <button ion-button color="primary" (click)="openPDF(posts.url)" class="pdfBtn">Abrir PDF</button>
       </ion-card-content>
     </ion-card>
 </div>
