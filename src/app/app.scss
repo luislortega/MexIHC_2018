@@ -56,6 +56,20 @@ h1 {
     text-align: center;
     margin: 2vw;
   }
+  .titlePdf{
+    font-size: 5vw !important;
+    text-align: justify;
+    padding: 1vw;
+    color: $black;
+    font-weight: 500;
+  }
+  .authorsPdf{
+    font-size: 4vw !important;
+    text-align: justify;
+    padding: 1vw;
+    color: $gray;
+    font-weight: 500;
+  }
 }
 .btnPdf{
   border-radius: 15px !important;
