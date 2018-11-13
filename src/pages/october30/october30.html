@@ -14,23 +14,22 @@
   
   </ion-header>
   
-  <ion-content padding>
+  <ion-content>
     <h1>October 30</h1>
     <!-- tab -->
-    <div *ngFor="let tab of tabla_30" class="cards">
-      <ion-card>
-        <ion-card-content>
-          <strong>{{tab.time}}</strong>
-          <p> <strong>Activity:</strong> {{tab.activity}}</p>
-          <p> <strong>Place:</strong> {{tab.place}}</p>
-          <p> <strong>Volunteer:</strong> {{tab.volunteer}}</p>
-          <div *ngIf= "tab.url != 'none'">
-              <button ion-button color="primary" (click)="openPDF(tab.url)">Abrir PDF</button>
-          </div>
-  
-        </ion-card-content>
-      </ion-card>
-    </div>
+    <div *ngFor="let tab of tabla_30">
+        <ion-card  class="cards">
+          <ion-card-content>
+              <p class="place">{{tab.place}}</p>
+              <p class="time">{{tab.time}}</p>
+              <p class="activity">{{tab.activity}}</p>
+            <div *ngIf= "tab.url != 'none'">
+                <button ion-button color="primary" (click)="openPDF(tab.url)" clear class="btnPdf" block>Open PDF</button>
+            </div>
+    
+          </ion-card-content>
+        </ion-card>
+      </div>
     <!-- END-tab -->
   </ion-content>
   

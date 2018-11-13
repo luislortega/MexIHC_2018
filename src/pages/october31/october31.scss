@@ -1,3 +1,25 @@
 page-october31 {
-
+    .cards{
+        p{
+            margin-bottom: 1vw !important;
+        }
+        .place{
+            font-weight: 500;
+            font-size: 4.7vw !important;
+            color: $gray !important;
+            text-align: center;
+        }
+        .time{
+            font-weight: 500;
+            font-size: 4.8vw !important;
+            color: $black !important;
+            text-align: center;
+        }
+        .activity{
+            font-weight: 500;
+            font-size: 5vw !important;
+            color: $black !important;
+            text-align: center;
+        }
+    }
 }
