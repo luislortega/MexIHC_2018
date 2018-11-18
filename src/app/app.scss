@@ -1,12 +1,40 @@
 // http://ionicframework.com/docs/theming/
+$background : #F7F7F7;
 $yellow : #FFFF00;
 $darkBlue : #002366;
+$blue: #357FC2;
+
+.cards {
+
+  .typePaper {
+    font-weight: 600;
+    font-size: 4.5vw;
+    color: $blue;
+    text-align: center;
+    margin: 1.8vw;
+  }
+}
+
+ion-navbar {
+  background: $background !important;
+
+  img {
+    width: 10vw !important;
+    margin: 3vw auto;
+    display: block
+  }
+}
 
 .card{
 
   margin: 5vw auto 5vw auto !important;
   border-radius: 15px !important;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.16) !important;
+  font-size: 4.5vw !important;
+  text-align: justify;
+  padding: 1vw;
+
+
 
   //margin-bottom: 25px !important;
   .pdfTitle{
