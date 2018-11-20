@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { IonicPage, ModalController } from 'ionic-angular';
 //Pagen that need
 import { FullpapersPage } from '../fullpapers/fullpapers';
-import { ShortpapersPage } from '../shortpapers/shortpapers'; 
+import { ShortpapersPage } from '../shortpapers/shortpapers';
 /**
  * Generated class for the PapersPage page.
  *
@@ -22,7 +22,7 @@ export class PapersPage {
     {'title': 'SHORT', 'url' : ShortpapersPage}
   ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
+  constructor(public modalCtrl: ModalController) {
   }
 
   ionViewDidLoad() {

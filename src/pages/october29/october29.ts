@@ -31,7 +31,7 @@ export class October29Page {
     {'time':'13:30 - 15:30','activity': 'FOOD', 'place':'Audiovisual "Eduardo Urzaiz"', 'volunteer': 'none', 'url':'none'},
     {'time':'15:30 - 15:59','activity': 'Boarding buses', 'place':'Papers, SDC, GC, Posters', 'volunteer': '3 Student Vounteer Mun ha, Busses','url':'none'},
     {'time':'16:00','activity': 'Uxmal departure', 'place':'Papers, SDC, GC, Posters', 'volunteer': '3 Student Vounteer Mun ha, Busses', 'url':'none'},
-    {'time':'17:30 - 18:50','activity': 'Visiting the chocolate museum', 'place':'Optional(at your own)', 'volunteer': '3 Student Vounteer Mun ha, Busses', 'url':'none'},
+    {'time':'17:30 - 18:50','activity': 'Visiting the chocolate museum', 'place':'Optional', 'volunteer': '3 Student Vounteer Mun ha, Busses', 'url':'none'},
     {'time':'19:00 - 19:45','activity': 'Uxmal light show', 'place':'. . .', 'volunteer': '3 Student Vounteer Mun ha, Busses','url':'none'},
     {'time':'20:15 - 22:00','activity': 'Welcome cocktail', 'place':'https://www.munha.org/', 'volunteer': '3 Student Vounteer Mun ha, Busses', 'url':'none'},
     {'time':'22:00','activity': 'Return to merida', 'place':'. . .', 'volunteer': '3 Student Vounteer Mun ha, Busses','url':'none'}
@@ -44,7 +44,7 @@ export class October29Page {
   }
 
   openPDF(urlTxt){
-    let url = encodeURIComponent(urlTxt); 
+    let url = encodeURIComponent(urlTxt);
     this.ia.create('https://docs.google.com/viewer?url=' + url);
   }
 

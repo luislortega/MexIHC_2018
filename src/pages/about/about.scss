@@ -1,18 +1,23 @@
 page-about {
+  margin: auto auto;
 
-    h1{
-        color: gray;
-    }
+  h1{
+      color: gray;
+  }
 
-    ion-card{
-        border-radius: 13px !important;    
-    }
-    
-    .cards{
-        p{
-            margin: 10px;
-            font-size: 25px;
-            color: #357FC2;
-        }    
-    }
+  ion-card{
+      border-radius: 13px !important;
+  }
+
+  div {
+    margin: auto;
+  }
+
+  .cards{
+      p{
+        margin: 5px;
+        font-size: 25px;
+        color: #357FC2;
+      }
+  }
 }

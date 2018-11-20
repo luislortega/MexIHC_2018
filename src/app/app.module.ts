@@ -13,8 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 //Pages that create in ionic_3
 import { PapersPage } from '../pages/papers/papers';
   //full and short papers
-  import { FullpapersPage } from '../pages/fullpapers/fullpapers';
-  import { ShortpapersPage } from '../pages/shortpapers/shortpapers';
+import { FullpapersPage } from '../pages/fullpapers/fullpapers';
+import { ShortpapersPage } from '../pages/shortpapers/shortpapers';
 import { ColoquioPage } from '../pages/coloquio/coloquio';
 import { CompetitionPage } from '../pages/competition/competition';
 import { PostersPage } from '../pages/posters/posters';
@@ -35,11 +35,11 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     HomePage,
     TabsPage,
     PapersPage,
-      FullpapersPage,
-      ShortpapersPage,
+    FullpapersPage,
+    ShortpapersPage,
     ColoquioPage,
     CompetitionPage,
-    PostersPage, 
+    PostersPage,
     October29Page,
     October30Page,
     October31Page
@@ -56,11 +56,11 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     HomePage,
     TabsPage,
     PapersPage,
-      FullpapersPage,
-      ShortpapersPage,
+    FullpapersPage,
+    ShortpapersPage,
     ColoquioPage,
     CompetitionPage,
-    PostersPage, 
+    PostersPage,
     October29Page,
     October30Page,
     October31Page

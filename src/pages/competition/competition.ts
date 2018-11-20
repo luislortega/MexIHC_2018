@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 /**
@@ -24,7 +24,7 @@ export class CompetitionPage {
     {'url':'http://convivenciaescolaryucatan.com.mx/php/pdfs/Competition/Paper_AyudaPersonasSordasCameraReady.pdf ','title': 'Tisekuae Xuta Xtaya: Ayuda a las personas sordas', 'name': 'Eduardo Armas García, Rafael Cano Martínez,Víctor Hernández Vásquez, Luis C. Mota Carrera, María del Rosario Peralta Calvo'}
   ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public ia: InAppBrowser) {
+  constructor(public ia: InAppBrowser) {
   }
 
   ionViewDidLoad() {
@@ -32,7 +32,7 @@ export class CompetitionPage {
   }
 
   openPDF(urlTxt){
-    let url = encodeURIComponent(urlTxt); 
+    let url = encodeURIComponent(urlTxt);
     this.ia.create('https://docs.google.com/viewer?url=' + url);
   }
 

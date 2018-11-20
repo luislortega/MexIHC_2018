@@ -12,16 +12,17 @@
 
 
 <ion-content padding>
+    <h1>GRADUATE COLLOQUIUM</h1>
     <!-- colloquium -->
   <div *ngFor="let coloquio of menu_coloquio" class="cards">
-      <ion-card>
-        <ion-card-content>
-            <p class="title">{{coloquio.title}}</p>
-            <br>
-            <p class="subtitule">- {{coloquio.name}}</p>
-        <button ion-button color="primary" (click)="openPDF(coloquio.url)">Abrir PDF</button>
-        </ion-card-content>
-      </ion-card>
+    <ion-card class="card">
+      <ion-card-content class="pdfCard">
+          <p class="pdfTitle">{{coloquio.title}}</p>
+          <br>
+          <p class="pdfAuthor">- {{coloquio.name}}</p>
+      <button ion-button color="primary" (click)="openPDF(coloquio.url)" class="pdfBtn">Abrir PDF</button>
+      </ion-card-content>
+    </ion-card>
   </div>
   <!-- END-colloquium -->
 </ion-content>

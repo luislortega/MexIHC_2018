@@ -4,30 +4,26 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
+<ion-header no-border>
   <ion-navbar>
     <button ion-button icon-only clear (click)="this.navCtrl.pop()">
-      <ion-icon name="close"></ion-icon> close
+      <ion-icon name="close"></ion-icon>Close
     </button>
   </ion-navbar>
-
+  <hr>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <h1>October 29</h1>
   <!-- tab -->
-  <div *ngFor="let tab of tabla_29" class="cards">
-    <ion-card>
-      <ion-card-content>
-        <strong>{{tab.time}}</strong>
-        <p> <strong>Activity:</strong> {{tab.activity}}</p>
-        <p> <strong>Place:</strong> {{tab.place}}</p>
-        <p> <strong>Volunteer:</strong> {{tab.volunteer}}</p>
-        <div *ngIf= "tab.url != 'none'">
-            <button ion-button color="primary" (click)="openPDF(tab.url)">Abrir PDF</button>
-        </div>
-
+  <div *ngFor="let tab of tabla_29">
+    <ion-card  class="card">
+      <ion-card-content class="pdfCard">
+          <p class="place">{{tab.place}}</p>
+          <p class="time">{{tab.time}}</p>
+          <p class="activity">{{tab.activity}}</p>
+          <br>
+          <button *ngIf= "tab.url != 'none'" ion-button color="danger" (click)="openPDF(tab.url)" class="btnPdf">Open PDF</button>
       </ion-card-content>
     </ion-card>
   </div>

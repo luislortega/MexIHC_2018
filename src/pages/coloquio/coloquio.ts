@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams} from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 /**
@@ -27,15 +27,15 @@ export class ColoquioPage {
     {'title': 'Wearable techology ad a mediator for communication and learning', 'name':'Héctor M. Camarillo Abad', 'url': 'http://convivenciaescolaryucatan.com.mx/php/pdfs/Colloquium/Wearable Technology as a Mediator for Communication and Learning.pdf '}
   ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private ia: InAppBrowser) {}
+  constructor(private ia: InAppBrowser) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ColoquioPage');
   }
 
   /**
-   * Function to show PDF with native. 
-   
+   * Function to show PDF with native.
+
   openPDF(){
     const options: DocumentViewerOptions = {
       title: 'My PDF'
@@ -44,7 +44,7 @@ export class ColoquioPage {
   } */
 
   openPDF(urlTxt){
-    let url = encodeURIComponent(urlTxt); 
+    let url = encodeURIComponent(urlTxt);
     this.ia.create('https://docs.google.com/viewer?url=' + url);
   }
 

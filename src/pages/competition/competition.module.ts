@@ -4,7 +4,7 @@ import { CompetitionPage } from './competition';
 
 @NgModule({
   declarations: [
-    CompetitionPage,
+    //CompetitionPage,
   ],
   imports: [
     IonicPageModule.forChild(CompetitionPage),

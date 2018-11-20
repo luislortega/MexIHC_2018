@@ -43,7 +43,7 @@ export class FullpapersPage {
   }
 
   openPDF(urlTxt){
-    let url = encodeURIComponent(urlTxt); 
+    let url = encodeURIComponent(urlTxt);
     this.ia.create('https://docs.google.com/viewer?url=' + url);
   }
 

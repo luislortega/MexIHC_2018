@@ -4,7 +4,7 @@ import { October29Page } from './october29';
 
 @NgModule({
   declarations: [
-    October29Page,
+    //October29Page,
   ],
   imports: [
     IonicPageModule.forChild(October29Page),

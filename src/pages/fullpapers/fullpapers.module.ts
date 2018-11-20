@@ -4,7 +4,7 @@ import { FullpapersPage } from './fullpapers';
 
 @NgModule({
   declarations: [
-    FullpapersPage,
+    //FullpapersPage,
   ],
   imports: [
     IonicPageModule.forChild(FullpapersPage),

@@ -1,5 +1,86 @@
 // http://ionicframework.com/docs/theming/
+$background : #F7F7F7;
+$yellow : #FFFF00;
+$darkBlue : #002366;
+$blue: #357FC2;
 
+.cards {
+
+  .typePaper {
+    font-weight: 600;
+    font-size: 4.5vw;
+    color: $blue;
+    text-align: center;
+    margin: 1.8vw;
+  }
+}
+
+ion-navbar {
+  background: $background !important;
+
+  img {
+    width: 10vw !important;
+    margin: 3vw auto;
+    display: block
+  }
+}
+
+.card{
+
+  margin: 5vw auto 5vw auto !important;
+  border-radius: 15px !important;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.16) !important;
+  font-size: 4.5vw !important;
+  text-align: justify;
+  padding: 1vw;
+
+
+
+  //margin-bottom: 25px !important;
+  .pdfTitle{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: $yellow;
+  }
+
+  .pdfAuthor {
+    color: white;
+    padding-bottom: 12px;
+  }
+
+  .pdfCard {
+    border-radius: 2%;
+    background-color: $darkBlue;
+    text-align: center;
+  }
+
+  .pdfBtn {
+    border-radius: 10px !important;
+    //background-color: $blue !important;
+    //color: #fff !important;
+    margin: 0 auto !important;
+  }
+
+  .place{
+    font-weight: 500;
+    font-size: 6vw !important;
+    color: white !important;
+    text-align: center;
+  }
+  .time{
+    font-weight: 500;
+    font-size: 3.8vw !important;
+    color: $yellow !important;
+    text-align: center;
+  }
+  .activity{
+    font-weight: 500;
+    font-size: 4vw !important;
+    color: lightblue !important;
+    text-align: center;
+  }
+}
 
 // App Global Sass
 // --------------------------------------------------
