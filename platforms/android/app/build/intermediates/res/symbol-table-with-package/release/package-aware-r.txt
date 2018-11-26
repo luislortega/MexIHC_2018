@@ -1,4 +1,4 @@
-io.ionic.starter
+com.workshoptechnology.mexihc
 int attr coordinatorLayoutStyle 0x7f010000
 int attr font 0x7f010001
 int attr fontProviderAuthority 0x7f010002

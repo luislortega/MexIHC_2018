@@ -16,21 +16,6 @@
             ]
         },
         {
-            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rHK_values-zh-rHK.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "101",
-                        "endOffsets": "152"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-af_values-af.arsc.flat",
             "map": [
                 {
@@ -46,10 +31,25 @@
             ]
         },
         {
-            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-hu_values-hu.arsc.flat",
+            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "101",
+                        "endOffsets": "152"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -61,10 +61,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-ko_values-ko.arsc.flat",
+            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-hu_values-hu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -106,10 +106,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-lo_values-lo.arsc.flat",
+            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -164,10 +164,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
+            "outputFile": "D:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\values-lo_values-lo.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Reynaldo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a815f93ccbf556a60d7f85bc248f66e7\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

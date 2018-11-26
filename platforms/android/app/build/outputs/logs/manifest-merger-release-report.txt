@@ -19,7 +19,7 @@ INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\andro
 INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
 INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
 	package
-		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
+		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:98-137
 		INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -29,7 +29,7 @@ INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\andro
 	android:hardwareAccelerated
 		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
+		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:138-196
 	android:versionCode
 		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
 		INJECTED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml
@@ -62,7 +62,7 @@ ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\
 		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#io.ionic.starter.MainActivity
+activity#com.workshoptechnology.mexihc.MainActivity
 ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from D:\Workshop_Technology\mexIHC_\mexLuis\MexIHC_2018\platforms\android\app\src\main\AndroidManifest.xml:6:97-134

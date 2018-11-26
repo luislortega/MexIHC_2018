@@ -1,4 +1,4 @@
-#Tue Nov 13 23:06:17 CST 2018
+#Mon Nov 26 16:16:58 CST 2018
 base.0=D\:\\Workshop_Technology\\mexIHC_\\mexLuis\\MexIHC_2018\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
